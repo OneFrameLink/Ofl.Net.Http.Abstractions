@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <PackageProjectUrl>https://github.com/OneFrameLink/Ofl.Net.Http.Abstractions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/OneFrameLink/Ofl.Net.Http.Abstractions.git</RepositoryUrl>
+    <Description>Utilities for consuming and publishing over HTTP.</Description>
+    <PackageTags>http http-requests http-response</PackageTags>
+    <Version>1.0.0</Version>
+    <RootNamespace>Ofl.Net.Http</RootNamespace>
+  </PropertyGroup>
+
+</Project>
