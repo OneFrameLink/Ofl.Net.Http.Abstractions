@@ -11,6 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1983F595-0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Net.Http.Abstractions.Tests", "test\Ofl.Net.Http.Abstractions.Tests\Ofl.Net.Http.Abstractions.Tests.csproj", "{93D90A9A-EACF-4722-9153-3FD5858CF9C1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-level items", "solution-level items", "{2135C31C-D933-4F0A-A308-7D67B357B16E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.gitmodules = .gitmodules
+		appveyor.yml = appveyor.yml
+		directory.build.props = directory.build.props
+		LICENSE = LICENSE
+		Ofl.Net.Http.Abstractions.sln.DotSettings = Ofl.Net.Http.Abstractions.sln.DotSettings
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,5 +63,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{48A62162-8B4E-4143-B46C-9B83A4BF92A7} = {41B15F42-5E5C-4E61-A3C9-C73C24B153D2}
 		{93D90A9A-EACF-4722-9153-3FD5858CF9C1} = {1983F595-07D1-44B6-82D1-BE9419CC4C18}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40D93C64-358B-4C54-9798-AAB0FB6A1E74}
 	EndGlobalSection
 EndGlobal
